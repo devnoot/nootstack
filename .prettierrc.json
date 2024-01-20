@@ -1,0 +1,13 @@
+{
+  "singleQuote": true,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "jsxSingleQuote": true,
+  "quoteProps": "consistent",
+  "semi": false,
+  "trailingComma": "all",
+  "plugins": [
+    "prettier-plugin-css-order",
+    "prettier-plugin-tailwindcss"
+  ]
+}
