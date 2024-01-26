@@ -6,8 +6,12 @@
   "quoteProps": "consistent",
   "semi": false,
   "trailingComma": "all",
+  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
   "plugins": [
     "prettier-plugin-css-order",
-    "prettier-plugin-tailwindcss"
+    "prettier-plugin-tailwindcss",
+    "@trivago/prettier-plugin-sort-imports"
   ]
 }
