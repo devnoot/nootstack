@@ -1,10 +1,22 @@
-# webapp-template
+# nootstack 
 
-This is a webapp template based on React. It uses the following technologies
+My frontend web app stack 
 
-- Vite
-- Prettier
-- Redux Toolkit
-- React Router
-- TailwindCSS
+**The stack**
 
+- react
+- react-query 
+- react-router
+- react-hook-form
+- lucide-icons
+- tailwindcss 
+
+**The dev tools**
+
+- vite
+- prettier
+- typescript
+
+## Other stuff
+
+- `@` is path aliased to the `app` folder
